@@ -1,0 +1,299 @@
+[
+  {
+    "name": "Ramesh Annapurna Dhaba",
+    "category": "Food",
+    "description": "Delicious home-style food available all day.",
+    "contact": "9876543211",
+    "address": "Main Road, Sehore, MP",
+    "email": "rameshdhaba@gmail.com",
+    "image": "/images/businessImages/food.jpg"
+  },
+  {
+    "name": "Sita Swadisht Bhojanalay",
+    "category": "Food",
+    "description": "Delicious home-style food available all day.",
+    "contact": "9876543212",
+    "address": "Ashoka Nagar, Sehore, MP",
+    "email": "sitabhojanalay@gmail.com",
+    "image": "/images/businessImages/food.jpg"
+  },
+  {
+    "name": "Manoj Desi Tandoor",
+    "category": "Food",
+    "description": "Delicious home-style food available all day.",
+    "contact": "9876543213",
+    "address": "Station Road, Sehore, MP",
+    "email": "manojspecial@gmail.com",
+    "image": "/images/businessImages/food.jpg"
+  },
+  {
+    "name": "Kiran Maa Ki Rasoi",
+    "category": "Food",
+    "description": "Delicious home-style food available all day.",
+    "contact": "9876543214",
+    "address": "Gandhi Market, Sehore, MP",
+    "email": "kiranrasoi@gmail.com",
+    "image": "/images/businessImages/food.jpg"
+  },
+  {
+    "name": "Vikram Tandoori Junction",
+    "category": "Food",
+    "description": "Delicious home-style food available all day.",
+    "contact": "9876543215",
+    "address": "Ward No. 5, Sehore, MP",
+    "email": "vikramtandoor@gmail.com",
+    "image": "/images/businessImages/food.jpg"
+  },
+  {
+    "name": "Sunil Yatra Travels",
+    "category": "Travel",
+    "description": "Reliable travel service for city and outstation trips.",
+    "contact": "9876543221",
+    "address": "Sector 1, Sehore, MP",
+    "email": "sunilyatra@gmail.com",
+    "image": "/images/businessImages/taxi.jpg"
+  },
+  {
+    "name": "Anjali Sehore Taxi Point",
+    "category": "Travel",
+    "description": "Reliable travel service for city and outstation trips.",
+    "contact": "9876543222",
+    "address": "Green Park Colony, Sehore, MP",
+    "email": "anjalitaxi@gmail.com",
+    "image": "/images/businessImages/taxi.jpg"
+  },
+  {
+    "name": "Ravi Ramdoot Travels",
+    "category": "Travel",
+    "description": "Reliable travel service for city and outstation trips.",
+    "contact": "9876543223",
+    "address": "Near Bus Stand, Sehore, MP",
+    "email": "ravitravel@gmail.com",
+    "image": "/images/businessImages/taxi.jpg"
+  },
+  {
+    "name": "Jyoti Shiv Shakti Tours",
+    "category": "Travel",
+    "description": "Reliable travel service for city and outstation trips.",
+    "contact": "9876543224",
+    "address": "Main Road, Sehore, MP",
+    "email": "jyotishakti@gmail.com",
+    "image": "/images/businessImages/taxi.jpg"
+  },
+  {
+    "name": "Amit Bharat Safar",
+    "category": "Travel",
+    "description": "Reliable travel service for city and outstation trips.",
+    "contact": "9876543225",
+    "address": "Civil Line, Sehore, MP",
+    "email": "amitsafar@gmail.com",
+    "image": "/images/businessImages/taxi.jpg"
+  },
+  {
+    "name": "Deepak Saraswati Classes",
+    "category": "Education",
+    "description": "Personalized learning for school and competitive exams.",
+    "contact": "9876543231",
+    "address": "Ashoka Nagar, Sehore, MP",
+    "email": "deepakclasses@gmail.com",
+    "image": "/images/businessImages/school.jpg"
+  },
+  {
+    "name": "Meena Gyan Deep Academy",
+    "category": "Education",
+    "description": "Personalized learning for school and competitive exams.",
+    "contact": "9876543232",
+    "address": "Mandi Area, Sehore, MP",
+    "email": "meenagyan@gmail.com",
+    "image": "/images/businessImages/school.jpg"
+  },
+  {
+    "name": "Rajesh Vidya Niketan",
+    "category": "Education",
+    "description": "Personalized learning for school and competitive exams.",
+    "contact": "9876543233",
+    "address": "Station Road, Sehore, MP",
+    "email": "rajeshvidya@gmail.com",
+    "image": "/images/businessImages/school.jpg"
+  },
+  {
+    "name": "Neha Smart Pathshala",
+    "category": "Education",
+    "description": "Personalized learning for school and competitive exams.",
+    "contact": "9876543234",
+    "address": "Green Park Colony, Sehore, MP",
+    "email": "nehasmart@gmail.com",
+    "image": "/images/businessImages/school.jpg"
+  },
+  {
+    "name": "Arjun Bright Future Classes",
+    "category": "Education",
+    "description": "Personalized learning for school and competitive exams.",
+    "contact": "9876543235",
+    "address": "Civil Line, Sehore, MP",
+    "email": "arjunfuture@gmail.com",
+    "image": "/images/businessImages/school.jpg"
+  },
+  {
+    "name": "Pooja Roop Salon",
+    "category": "Salon",
+    "description": "All beauty and grooming services available.",
+    "contact": "9876543241",
+    "address": "Sector 1, Sehore, MP",
+    "email": "poojasalon@gmail.com",
+    "image": "/images/businessImages/salon.jpg"
+  },
+  {
+    "name": "Komal Beauty Bliss",
+    "category": "Salon",
+    "description": "All beauty and grooming services available.",
+    "contact": "9876543242",
+    "address": "Mandi Area, Sehore, MP",
+    "email": "komalbliss@gmail.com",
+    "image": "/images/businessImages/salon.jpg"
+  },
+  {
+    "name": "Anita Glow & Shine",
+    "category": "Salon",
+    "description": "All beauty and grooming services available.",
+    "contact": "9876543243",
+    "address": "Civil Line, Sehore, MP",
+    "email": "anitaglow@gmail.com",
+    "image": "/images/businessImages/salon.jpg"
+  },
+  {
+    "name": "Nisha Lavanya Studio",
+    "category": "Salon",
+    "description": "All beauty and grooming services available.",
+    "contact": "9876543244",
+    "address": "Station Road, Sehore, MP",
+    "email": "nishasalon@gmail.com",
+    "image": "/images/businessImages/salon.jpg"
+  },
+  {
+    "name": "Lalit Hari Bhari Sabzi",
+    "category": "Vegetable",
+    "description": "Fresh vegetables delivered from local farms.",
+    "contact": "9876543251",
+    "address": "Gandhi Market, Sehore, MP",
+    "email": "lalitsabji@gmail.com",
+    "image": "/images/businessImages/vegetable.jpg"
+  },
+  {
+    "name": "Chandan Sabzi Wala Bhaiya",
+    "category": "Vegetable",
+    "description": "Fresh vegetables delivered from local farms.",
+    "contact": "9876543252",
+    "address": "Main Road, Sehore, MP",
+    "email": "chandansabji@gmail.com",
+    "image": "/images/businessImages/vegetable.jpg"
+  },
+  {
+    "name": "Rahul Sehore Fresh",
+    "category": "Vegetable",
+    "description": "Fresh vegetables delivered from local farms.",
+    "contact": "9876543253",
+    "address": "Ashoka Nagar, Sehore, MP",
+    "email": "rahulfresh@gmail.com",
+    "image": "/images/businessImages/vegetable.jpg"
+  },
+  {
+    "name": "Mohit Desi Farms",
+    "category": "Vegetable",
+    "description": "Fresh vegetables delivered from local farms.",
+    "contact": "9876543254",
+    "address": "Station Road, Sehore, MP",
+    "email": "mohitfarms@gmail.com",
+    "image": "/images/businessImages/vegetable.jpg"
+  },
+  {
+    "name": "Sanjay FixIt Electricals",
+    "category": "Repair Services",
+    "description": "Quick and affordable repair solutions.",
+    "contact": "9876543261",
+    "address": "Sector 1, Sehore, MP",
+    "email": "sanjayrepair@gmail.com",
+    "image": "/images/businessImages/repair.jpg"
+  },
+  {
+    "name": "Vikas Sharma Repair Hub",
+    "category": "Repair Services",
+    "description": "Quick and affordable repair solutions.",
+    "contact": "9876543262",
+    "address": "Civil Line, Sehore, MP",
+    "email": "vikasrepair@gmail.com",
+    "image": "/images/businessImages/repair.jpg"
+  },
+  {
+    "name": "Rekha Jeevan Rekha Clinic",
+    "category": "Medical",
+    "description": "Health care and emergency services.",
+    "contact": "9876543271",
+    "address": "Mandi Area, Sehore, MP",
+    "email": "rekhaclinic@gmail.com",
+    "image": "/images/businessImages/hospital.jpg"
+  },
+  {
+    "name": "Dr. Ajay Arogya Seva",
+    "category": "Medical",
+    "description": "Health care and emergency services.",
+    "contact": "9876543272",
+    "address": "Green Park Colony, Sehore, MP",
+    "email": "ajayclinic@gmail.com",
+    "image": "/images/businessImages/hospital.jpg"
+  },
+  {
+    "name": "Priya Nandini Vastra",
+    "category": "Clothing",
+    "description": "Trendy and traditional clothes available.",
+    "contact": "9876543281",
+    "address": "Station Road, Sehore, MP",
+    "email": "nandinifashion@gmail.com",
+    "image": "/images/businessImages/clothes.jpg"
+  },
+  {
+    "name": "Karan Royal Menswear",
+    "category": "Clothing",
+    "description": "Trendy and traditional clothes available.",
+    "contact": "9876543282",
+    "address": "Civil Line, Sehore, MP",
+    "email": "karanfashion@gmail.com",
+    "image": "/images/businessImages/clothes.jpg"
+  },
+  {
+    "name": "Ravi Om Electronics",
+    "category": "Electronics",
+    "description": "Latest electronics and gadgets.",
+    "contact": "9876543291",
+    "address": "Ashoka Nagar, Sehore, MP",
+    "email": "raviom@gmail.com",
+    "image": "/images/businessImages/electronics.jpg"
+  },
+  {
+    "name": "Bhavesh Electro World",
+    "category": "Electronics",
+    "description": "Latest electronics and gadgets.",
+    "contact": "9876543292",
+    "address": "Green Park Colony, Sehore, MP",
+    "email": "bhaveshtech@gmail.com",
+    "image": "/images/businessImages/electronics.jpg"
+  },
+  {
+    "name": "Suresh Student Stationers",
+    "category": "Stationery",
+    "description": "School and office supplies.",
+    "contact": "9876543301",
+    "address": "Main Road, Sehore, MP",
+    "email": "sureshstationery@gmail.com",
+    "image": "/images/businessImages/stationery.jpg"
+  },
+  {
+    "name": "Tina Pen & Paper",
+    "category": "Stationery",
+    "description": "School and office supplies.",
+    "contact": "9876543302",
+    "address": "Civil Line, Sehore, MP",
+    "email": "tinastationery@gmail.com",
+    "image": "/images/businessImages/stationery.jpg"
+  }
+]
