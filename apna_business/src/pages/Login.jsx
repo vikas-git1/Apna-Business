@@ -1,21 +1,17 @@
 import React, { useState } from "react";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../Auth/firebase";
-
+import { useNavigate } from "react-router-dom";
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-
+  const navigate = useNavigate();
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const userCredential = await signInWithEmailAndPassword(
-        auth,
-        email,
-        password
-      );
-      console.log("Logged in user:", userCredential.user);
-      alert("Login Successful!");
+      await signInWithEmailAndPassword(auth, email, password);
+      alert("User Login Successful!");
+      navigate("/");
     } catch (error) {
       console.log("Login Error:", error.message);
       alert("Login failed. Check your credentials.");
@@ -29,7 +25,7 @@ function Login() {
           Login to Your Business Account
         </h2>
 
-        <form className="space-y-4">
+        <form className="space-y-4" onSubmit={handleLogin}>
           <input
             type="email"
             placeholder="Email"

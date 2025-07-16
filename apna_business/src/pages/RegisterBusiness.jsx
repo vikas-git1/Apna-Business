@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-import { auth } from "../Auth/firebase";
+import { auth, db } from "../Auth/firebase";
+import { setDoc, doc } from "firebase/firestore";
 import { createUserWithEmailAndPassword } from "firebase/auth";
-
+import { useNavigate } from "react-router-dom";
 function RegisterBusiness() {
+  const [ownerName, setOwnerName] = useState("");
   const [name, setName] = useState("");
   const [category, setCategory] = useState("");
   const [description, setDescription] = useState("");
@@ -12,37 +14,36 @@ function RegisterBusiness() {
   const [password, setPassword] = useState("");
   const [image, setImage] = useState(null);
   const [preview, setPreview] = useState(null);
-
-  const handleImageChange = (e) => {
-    const file = e.target.files[0];
-    setImage(file);
-    setPreview(URL.createObjectURL(file));
-  };
+  const navigate = useNavigate();
+  // const handleImageChange = (e) => {
+  //   const file = e.target.files[0];
+  //   setImage(file);
+  //   setPreview(URL.createObjectURL(file));
+  // };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     try {
-      const formData = {
-        name,
-        category,
-        description,
-        contact,
-        address,
-        email,
-        password,
-        image,
-      };
-
       const userCredentials = await createUserWithEmailAndPassword(
         auth,
         email,
         password
       );
-      console.log("User ID:", userCredentials.user);
-
-      console.log("Registered Business:", formData);
+      const user = userCredentials.user;
+      if (user) {
+        await setDoc(doc(db, "businesses", user.uid), {
+          email: user.email,
+          ownerName: ownerName,
+          name: name,
+          category: category,
+          address: address,
+          contact: contact,
+          description: description,
+        });
+      }
+      console.log("User Registered and details stored  successfully ", user);
       alert("Business Registered Successfully!");
+      navigate("/");
     } catch (error) {
       console.log("Error in Registration :", error.message);
     }
@@ -55,7 +56,15 @@ function RegisterBusiness() {
           Register Your Business
         </h2>
 
-        <form className="space-y-4">
+        <form className="space-y-4" onSubmit={handleSubmit}>
+          <input
+            type="text"
+            placeholder="Business Owner Name"
+            className="w-full border border-gray-300 p-3 rounded"
+            value={ownerName}
+            onChange={(e) => setOwnerName(e.target.value)}
+            required
+          />
           <input
             type="text"
             placeholder="Business Name"
@@ -118,7 +127,7 @@ function RegisterBusiness() {
             required
           />
 
-          <label className="block font-medium text-gray-700">
+          {/* <label className="block font-medium text-gray-700">
             Upload Business Image
           </label>
           <input
@@ -127,7 +136,7 @@ function RegisterBusiness() {
             capture="environment"
             onChange={handleImageChange}
             className="w-full border border-gray-300 p-3 rounded"
-          />
+          /> */}
 
           {preview && (
             <div className="mt-4">
