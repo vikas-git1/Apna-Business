@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import HomePage from "../pages/HomePage";
 import Login from "../pages/Login";
 import RegisterBusiness from "../pages/RegisterBusiness";
+import NotFoundPage from "../pages/NotFoundPage";
 const Routing = () => {
   return (
     <>
@@ -12,7 +13,8 @@ const Routing = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/" element={<RegisterBusiness />} />
+          <Route path="/register" element={<RegisterBusiness />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </BrowserRouter>
     </>
