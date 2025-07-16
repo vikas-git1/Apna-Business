@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { FaUserCircle } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import { useAuth } from "../context/AuthContext";
 function Navbar() {
-  const [user, setUser] = useState(false);
   const navigate = useNavigate();
+  const { user, profile } = useAuth();
   return (
     <nav className="w-full bg-orange-500 text-white shadow-md">
       <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
@@ -21,7 +22,7 @@ function Navbar() {
           {user ? (
             <>
               <FaUserCircle className="text-2xl" />
-              <span className="hidden sm:inline">Vikas</span>
+              <span className="hidden sm:inline">{profile.ownerName}</span>
             </>
           ) : (
             <>
